@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+      android:id="@+id/ListView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ListView"
+      android:textSize="30dp"
+      android:gravity="center_horizontal"
+      android:textColor="#ff0000">
+    </TextView>
+    <TextView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="#ff0000">
+    </TextView>
+    <TextView
+        android:id="@+id/SharedPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SharedPreferences"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="#ff0000">
+    </TextView>
+    <TextView
+        android:id="@+id/FileIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FileIO"
+        android:textSize="30dp"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SQLite"
+        android:text="SQLite"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#0000ff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContentProvider"
+        android:text="ContentProvider"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#0000ff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Service"
+        android:text="Service"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#00ff00"/>
+
+
+
+
+
+
+</LinearLayout>
