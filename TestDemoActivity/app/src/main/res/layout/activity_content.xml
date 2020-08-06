@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+
+
+    <!--<TextView
+        android:id="@+id/ContactsContractContentProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff0f"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="ContactsContractContentProvider"
+        android:layout_marginTop="30dp"/>-->
+    <TextView
+        android:id="@+id/MyOwnContentProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff0f"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="自定义ContentProvider"
+        android:layout_marginTop="150dp"/>
+</LinearLayout>
